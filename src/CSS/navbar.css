@@ -1,0 +1,80 @@
+.mainBlueColor {
+  color: rgb(13, 110, 253);
+}
+.mainBlueBackground {
+  background-color: rgb(13, 110, 253);
+}
+.navhove:hover {
+  background-color: rgb(13, 110, 253) !important;
+  color: white !important;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+.playToWinBtn {
+  background-color: transparent;
+  border: 2px solid rgb(13, 110, 253);
+  border-radius: 20px 33px;
+  padding: 10px 15px;
+  color: rgb(13, 110, 253);
+}
+.playToWinBtn:hover {
+  background-color: rgb(13, 110, 253);
+  color: white;
+}
+.twentyPxBorderRadius {
+  border-radius: 20px;
+}
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+.boldText {
+  font-weight: bold;
+}
+.bolderText {
+  font-weight: bolder;
+}
+.YourGradient {
+  background-image: linear-gradient(to right, deeppink, rgb(13, 110, 253));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.YourBackgroundGradient {
+  background-image: linear-gradient(90deg, deeppink 0%, rgb(13, 110, 253) 45%);
+}
+.logoName {
+  padding-left: 8px;
+  font-weight: bolder;
+  font-size: 120%;
+}
+.centerText{
+  text-align: center;
+}
+
+
+.howToPartSection {
+  padding: 5%;
+  line-height: 1.7;
+  text-align: center;
+}
+.innerHowToPartSection {
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 766px) {
+  .ourMissionHeading {
+    padding-top: 25px;
+    margin-bottom: -20px;
+    font-size: 175%;
+    padding-bottom: 25px;
+  }
+}
